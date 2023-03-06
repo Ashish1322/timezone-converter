@@ -9,7 +9,7 @@ const app = express();
 const LogsSchema = require("./modals/logs")
 
 // db connection
-const connectionUrl = 'mongodb+srv://ashish1322:DN4jzZkz8voDHsxY@cluster0.88yqf.mongodb.net/?retryWrites=true&w=majority'
+const connectionUrl = 'Connection Url Here'
 mongoose.connect(connectionUrl).then(()=> console.log("Database Connected"))
 
 // middlewares
